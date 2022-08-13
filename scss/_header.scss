@@ -4,7 +4,8 @@
 	margin-top: 35px;
 
 	&__logo {
-		width: 30%;
+		width: 25%;
+		margin-left: 15px;
 
 		& img {
 			width: 100%;
@@ -12,7 +13,7 @@
 	}
 
 	&__navigation {
-		line-height: 35px;
+		line-height: 25px;
 		margin-right: 20px;
 
 		& button {

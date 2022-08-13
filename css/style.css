@@ -31,13 +31,14 @@ main {
   margin-top: 35px;
 }
 .header__logo {
-  width: 30%;
+  width: 25%;
+  margin-left: 15px;
 }
 .header__logo img {
   width: 100%;
 }
 .header__navigation {
-  line-height: 35px;
+  line-height: 25px;
   margin-right: 20px;
 }
 .header__navigation button {
