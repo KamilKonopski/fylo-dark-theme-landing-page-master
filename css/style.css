@@ -36,6 +36,7 @@ main {
 @media screen and (min-width: 1024px) {
   .header {
     background-image: url("../images/bg-curvy-desktop.svg");
+    background-position-y: 390px;
     padding-top: 80px;
   }
 }
@@ -92,4 +93,32 @@ main {
 }
 .hero__image img {
   width: 100%;
+}
+.hero__text {
+  color: #ffffff;
+  margin: 30px 15px 0;
+  text-align: center;
+}
+.hero__text h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 150%;
+  margin-bottom: 15px;
+}
+.hero__text p {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.hero__text button {
+  background: linear-gradient(to right, #65e2d9 0%, #65e2d9 10%, #339ecc 100%);
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 60px;
+  transition: 0.3s linear;
+}
+.hero__text button:hover {
+  background: linear-gradient(to right, #65e2d9 0%, #65e2d9 100%);
 }/*# sourceMappingURL=style.css.map */
