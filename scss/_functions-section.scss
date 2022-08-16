@@ -4,9 +4,19 @@
 	padding-top: 350px;
 	text-align: center;
 
+	@media screen and (min-width: 1024px) {
+		align-items: baseline;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding-top: 150px;
+		width: 100%;
+	}
+
 	&__single-function {
 		color: $white;
 		margin-bottom: 80px;
+		width: 35%;
 
 		& h2 {
 			font-family: "Raleway", sans-serif;
@@ -18,6 +28,10 @@
 			font-size: 14px;
 			line-height: 150%;
 			padding: 0 25px;
+
+			@media screen and (min-width: 1024px) {
+				padding: 0 65px;
+			}
 		}
 	}
 }
