@@ -170,7 +170,11 @@ main {
 .functions__single-function {
   color: #ffffff;
   margin-bottom: 80px;
-  width: 35%;
+}
+@media screen and (min-width: 1024px) {
+  .functions__single-function {
+    width: 35%;
+  }
 }
 .functions__single-function h2 {
   font-family: "Raleway", sans-serif;
@@ -186,4 +190,53 @@ main {
   .functions__single-function p {
     padding: 0 65px;
   }
+}
+
+.stay-productive {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.stay-productive__image {
+  width: 90%;
+  margin: 0 5%;
+}
+.stay-productive__image img {
+  width: 100%;
+}
+.stay-productive__text {
+  color: #ffffff;
+  margin: 50px 15px;
+}
+.stay-productive__text h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.stay-productive__text p {
+  margin: 15px 10px;
+}
+.stay-productive__text button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #65e2d9;
+  display: flex;
+  color: #65e2d9;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  transition: 0.2s linear;
+}
+.stay-productive__text button img {
+  margin-left: 8px;
+  transition: 0.2s linear;
+}
+.stay-productive__text button:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.stay-productive__text button:hover img {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(212deg) brightness(106%) contrast(101%);
 }/*# sourceMappingURL=style.css.map */

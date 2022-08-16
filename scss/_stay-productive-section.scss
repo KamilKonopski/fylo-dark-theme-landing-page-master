@@ -1,0 +1,58 @@
+.stay-productive {
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+
+	&__image {
+		width: 90%;
+		margin: 0 5%;
+
+		& img {
+			width: 100%;
+		}
+	}
+
+	&__text {
+		color: $white;
+		margin: 50px 15px;
+
+		& h2 {
+			font-family: "Raleway", sans-serif;
+			font-size: 20px;
+			font-weight: 700;
+			text-align: center;
+		}
+
+		& p {
+			margin: 15px 10px;
+		}
+
+		& button {
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid $cyan;
+			display: flex;
+			color: $cyan;
+			cursor: pointer;
+			font-size: 14px;
+			margin-left: 10px;
+			padding-bottom: 5px;
+			transition: 0.2s linear;
+
+			& img {
+				margin-left: 8px;
+				transition: 0.2s linear;
+			}
+
+			&:hover {
+				border-color: $white;
+				color: $white;
+			}
+
+			&:hover img {
+				filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(212deg)
+					brightness(106%) contrast(101%);
+			}
+		}
+	}
+}
