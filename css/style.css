@@ -61,7 +61,7 @@ main {
 @media screen and (min-width: 1024px) {
   .header__navigation {
     line-height: 40px;
-    margin-right: 40px;
+    margin-right: 150px;
   }
 }
 .header__navigation button {
