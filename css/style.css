@@ -149,4 +149,25 @@ main {
 }
 .hero__text button:hover {
   background: linear-gradient(to right, #65e2d9 0%, #65e2d9 100%);
+}
+
+.functions {
+  display: flex;
+  flex-direction: column;
+  padding-top: 350px;
+  text-align: center;
+}
+.functions__single-function {
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+.functions__single-function h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 50px 0 10px;
+}
+.functions__single-function p {
+  font-size: 14px;
+  line-height: 150%;
+  padding: 0 25px;
 }/*# sourceMappingURL=style.css.map */
