@@ -26,17 +26,18 @@ main {
   background-image: url("../images/bg-curvy-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-position-x: center;
   background-position-y: bottom;
   display: flex;
   justify-content: space-between;
   padding-top: 35px;
-  height: 70vh;
+  height: 80vh;
 }
 @media screen and (min-width: 1024px) {
   .header {
     background-image: url("../images/bg-curvy-desktop.svg");
-    background-position-y: 390px;
+    background-size: 80vw;
+    background-position-x: -100px;
+    background-position-y: 400px;
     padding-top: 80px;
   }
 }
@@ -87,9 +88,21 @@ main {
   position: absolute;
   top: 5%;
 }
+@media screen and (min-width: 1024px) {
+  .hero {
+    left: 0%;
+    top: 7%;
+  }
+}
 .hero__image {
   width: 90%;
   margin: 0 5%;
+}
+@media screen and (min-width: 1024px) {
+  .hero__image {
+    width: 30%;
+    margin: 0 auto;
+  }
 }
 .hero__image img {
   width: 100%;
@@ -98,6 +111,11 @@ main {
   color: #ffffff;
   margin: 30px 15px 0;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .hero__text {
+    margin: 30px 450px 0;
+  }
 }
 .hero__text h1 {
   font-family: "Raleway", sans-serif;
@@ -109,6 +127,11 @@ main {
   font-size: 16px;
   margin-bottom: 25px;
 }
+@media screen and (min-width: 1024px) {
+  .hero__text p {
+    margin: 0 30px 25px;
+  }
+}
 .hero__text button {
   background: linear-gradient(to right, #65e2d9 0%, #65e2d9 10%, #339ecc 100%);
   border: none;
@@ -118,6 +141,11 @@ main {
   font-size: 16px;
   padding: 15px 60px;
   transition: 0.3s linear;
+}
+@media screen and (min-width: 1024px) {
+  .hero__text button {
+    padding: 15px 80px;
+  }
 }
 .hero__text button:hover {
   background: linear-gradient(to right, #65e2d9 0%, #65e2d9 100%);

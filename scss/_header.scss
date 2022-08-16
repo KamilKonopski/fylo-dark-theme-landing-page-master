@@ -3,16 +3,18 @@
 	background-image: url("../images/bg-curvy-mobile.svg");
 	background-repeat: no-repeat;
 	background-size: 100vw;
-	background-position-x: center;
+
 	background-position-y: bottom;
 	display: flex;
 	justify-content: space-between;
 	padding-top: 35px;
-	height: 70vh;
+	height: 80vh;
 
 	@media screen and (min-width: 1024px) {
 		background-image: url("../images/bg-curvy-desktop.svg");
-		background-position-y: 390px;
+		background-size: 80vw;
+		background-position-x: -100px;
+		background-position-y: 400px;
 		padding-top: 80px;
 	}
 
