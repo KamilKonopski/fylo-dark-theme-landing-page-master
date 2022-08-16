@@ -1,10 +1,18 @@
 .header {
+	background-color: $dark-blue-intro;
+	background-image: url("../images/bg-curvy-mobile.svg");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-position-x: center;
+	background-position-y: bottom;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 35px;
+	padding-top: 35px;
+	height: 70vh;
 
 	@media screen and (min-width: 1024px) {
-		margin-top: 80px;
+		background-image: url("../images/bg-curvy-desktop.svg");
+		padding-top: 80px;
 	}
 
 	&__logo {

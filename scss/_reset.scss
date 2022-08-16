@@ -8,22 +8,19 @@
 // Headings, Call-to-actions, Header Navigation
 // font-family: 'Raleway', sans-serif;
 
+html {
+	overflow-x: hidden;
+}
+
 body {
-	background-color: $dark-blue-intro;
 	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	margin: 0 auto;
 	max-width: 1440px;
+	overflow-x: hidden;
+	position: relative;
 }
 
 main {
 	background-color: $dark-blue-main;
-	background-image: url("../images/bg-curvy-mobile.svg");
-	background-repeat: no-repeat;
-	background-size: 100vw;
-	background-position-x: center;
-
-	@media screen and (min-width: 1024px) {
-		background-image: url("../images/bg-curvy-desktop.svg");
-	}
 }

@@ -4,35 +4,39 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
-  background-color: #1c2431;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin: 0 auto;
   max-width: 1440px;
+  overflow-x: hidden;
+  position: relative;
 }
 
 main {
   background-color: #181f2a;
+}
+
+.header {
+  background-color: #1c2431;
   background-image: url("../images/bg-curvy-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position-x: center;
-}
-@media screen and (min-width: 1024px) {
-  main {
-    background-image: url("../images/bg-curvy-desktop.svg");
-  }
-}
-
-.header {
+  background-position-y: bottom;
   display: flex;
   justify-content: space-between;
-  margin-top: 35px;
+  padding-top: 35px;
+  height: 70vh;
 }
 @media screen and (min-width: 1024px) {
   .header {
-    margin-top: 80px;
+    background-image: url("../images/bg-curvy-desktop.svg");
+    padding-top: 80px;
   }
 }
 .header__logo {
@@ -75,4 +79,17 @@ main {
 .header__navigation button:hover {
   border-bottom: 1px solid #ffffff;
   color: #ffffff;
+}
+
+.hero {
+  left: 0;
+  position: absolute;
+  top: 5%;
+}
+.hero__image {
+  width: 90%;
+  margin: 0 5%;
+}
+.hero__image img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

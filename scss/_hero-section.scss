@@ -1,0 +1,14 @@
+.hero {
+	left: 0;
+	position: absolute;
+	top: 5%;
+
+	&__image {
+		width: 90%;
+		margin: 0 5%;
+
+		& img {
+			width: 100%;
+		}
+	}
+}
