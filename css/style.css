@@ -280,11 +280,25 @@ main {
   flex-direction: column;
   position: relative;
 }
+@media screen and (min-width: 1024px) {
+  .quotes {
+    flex-direction: row;
+    margin: 150px 35px;
+  }
+}
 .quotes__image {
   left: 5%;
   position: absolute;
   top: -3.5%;
   width: 8%;
+}
+@media screen and (min-width: 1024px) {
+  .quotes__image {
+    left: 1.5%;
+    top: -19%;
+    width: 4%;
+    z-index: 0;
+  }
 }
 .quotes__image img {
   width: 100%;
@@ -296,9 +310,23 @@ main {
   width: 90%;
   height: 30vh;
 }
+@media screen and (min-width: 1024px) {
+  .quotes__single-quote {
+    z-index: 1;
+    height: 20vh;
+    margin: 0;
+    margin-left: 30px;
+    width: 30%;
+  }
+}
 .quotes__single-quote p.quote {
   margin: 25px 5px 0 25px;
   line-height: 150%;
+}
+@media screen and (min-width: 1024px) {
+  .quotes__single-quote p.quote {
+    margin-right: 75px;
+  }
 }
 .quotes__single-quote-employee img {
   width: 10%;
@@ -306,13 +334,30 @@ main {
   float: left;
   margin-left: 20px;
 }
+@media screen and (min-width: 1024px) {
+  .quotes__single-quote-employee img {
+    width: 6%;
+  }
+}
 .quotes__single-quote-employee h3 {
   font-size: 15px;
   font-weight: 400;
   margin-left: 70px;
   margin-top: 30px;
 }
+@media screen and (min-width: 1024px) {
+  .quotes__single-quote-employee h3 {
+    font-size: 12px;
+    margin-left: 55px;
+  }
+}
 .quotes__single-quote-employee p {
   font-size: 10px;
   margin-left: 70px;
+}
+@media screen and (min-width: 1024px) {
+  .quotes__single-quote-employee p {
+    font-size: 8px;
+    margin-left: 55px;
+  }
 }/*# sourceMappingURL=style.css.map */
