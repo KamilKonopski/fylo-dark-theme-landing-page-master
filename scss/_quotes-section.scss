@@ -1,0 +1,50 @@
+.quotes {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	&__image {
+		left: 5%;
+		position: absolute;
+		top: -3.5%;
+		width: 8%;
+
+		& img {
+			width: 100%;
+		}
+	}
+
+	&__single-quote {
+		background-color: $dark-blue-testimonials;
+		color: $white;
+		margin: 0 5% 25px;
+		width: 90%;
+		height: 30vh;
+
+		& p.quote {
+			margin: 25px 5px 0 25px;
+			line-height: 150%;
+		}
+
+		&-employee {
+			& img {
+				width: 10%;
+				border-radius: 50%;
+				float: left;
+				margin-left: 20px;
+			}
+
+			& h3 {
+				font-size: 15px;
+				font-weight: 400;
+				margin-left: 70px;
+				margin-top: 30px;
+			}
+
+			& p {
+				font-size: 10px;
+				margin-left: 70px;
+			}
+		}
+	}
+}

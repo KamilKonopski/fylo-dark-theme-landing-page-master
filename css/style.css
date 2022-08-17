@@ -273,4 +273,46 @@ main {
 }
 .stay-productive__text button:hover img {
   filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(212deg) brightness(106%) contrast(101%);
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.quotes__image {
+  left: 5%;
+  position: absolute;
+  top: -3.5%;
+  width: 8%;
+}
+.quotes__image img {
+  width: 100%;
+}
+.quotes__single-quote {
+  background-color: #202a3c;
+  color: #ffffff;
+  margin: 0 5% 25px;
+  width: 90%;
+  height: 30vh;
+}
+.quotes__single-quote p.quote {
+  margin: 25px 5px 0 25px;
+  line-height: 150%;
+}
+.quotes__single-quote-employee img {
+  width: 10%;
+  border-radius: 50%;
+  float: left;
+  margin-left: 20px;
+}
+.quotes__single-quote-employee h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.quotes__single-quote-employee p {
+  font-size: 10px;
+  margin-left: 70px;
 }/*# sourceMappingURL=style.css.map */
