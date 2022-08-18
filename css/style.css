@@ -367,7 +367,7 @@ main {
   height: 55vh;
   left: 5%;
   position: absolute;
-  top: 88%;
+  top: 78%;
   width: 90%;
 }
 @media screen and (min-width: 1024px) {
@@ -467,4 +467,61 @@ main {
   .early-access__form button:hover {
     background: #65e2d9;
   }
+}
+
+.footer {
+  background-color: #0b1523;
+  padding-top: 230px;
+}
+.footer__logo {
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+.footer .flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.footer__info {
+  color: #ffffff;
+}
+.footer__info-location, .footer__info-phone, .footer__info-email {
+  display: flex;
+  margin-bottom: 15px;
+}
+.footer__info-location img, .footer__info-phone img, .footer__info-email img {
+  height: 3vh;
+  margin-right: 30px;
+}
+.footer__info-location p, .footer__info-phone p, .footer__info-email p {
+  font-size: 16px;
+  margin-right: 25px;
+}
+.footer__navigation {
+  list-style: none;
+  margin-top: 50px;
+}
+.footer__navigation li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.footer__navigation li a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.footer__socials i::before {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
