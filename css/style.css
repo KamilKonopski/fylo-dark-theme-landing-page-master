@@ -4,16 +4,11 @@
   padding: 0;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin: 0 auto;
   max-width: 1440px;
-  overflow-x: hidden;
   position: relative;
 }
 
@@ -375,29 +370,64 @@ main {
   top: 88%;
   width: 90%;
 }
+@media screen and (min-width: 1024px) {
+  .early-access {
+    height: 25vh;
+    left: 20%;
+    top: 83%;
+    width: 60%;
+  }
+}
 .early-access__text {
   color: #ffffff;
   margin: 50px 30px 30px;
   text-align: center;
 }
+@media screen and (min-width: 1024px) {
+  .early-access__text {
+    margin: 35px 120px 30px;
+  }
+}
 .early-access__text h2 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 15px;
 }
+@media screen and (min-width: 1024px) {
+  .early-access__text h2 {
+    font-size: 26px;
+  }
+}
 .early-access__text p {
   font-size: 15px;
   line-height: 150%;
+}
+@media screen and (min-width: 1024px) {
+  .early-access__text p {
+    font-size: 14px;
+  }
 }
 .early-access__form {
   display: flex;
   flex-direction: column;
   margin: 0 25px;
 }
+@media screen and (min-width: 1024px) {
+  .early-access__form {
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+}
 .early-access__form input {
   border: none;
   border-radius: 50px;
   margin-bottom: 25px;
   padding: 15px 0 15px 25px;
+}
+@media screen and (min-width: 1024px) {
+  .early-access__form input {
+    width: 60%;
+  }
 }
 .early-access__form input:focus {
   outline: none;
@@ -412,6 +442,13 @@ main {
   margin-top: -25px;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 1024px) {
+  .early-access__form span.invalid-email {
+    left: 6%;
+    position: absolute;
+    top: 110%;
+  }
+}
 .early-access__form button {
   background: linear-gradient(to right, #65e2d9 0%, #65e2d9 10%, #339ecc 100%);
   border: none;
@@ -420,4 +457,14 @@ main {
   font-size: 15px;
   font-weight: 700;
   padding: 15px;
+}
+@media screen and (min-width: 1024px) {
+  .early-access__form button {
+    cursor: pointer;
+    height: 5vh;
+    width: 25%;
+  }
+  .early-access__form button:hover {
+    background: #65e2d9;
+  }
 }/*# sourceMappingURL=style.css.map */
