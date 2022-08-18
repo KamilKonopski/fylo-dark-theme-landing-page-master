@@ -279,7 +279,7 @@ main {
 @media screen and (min-width: 1024px) {
   .quotes {
     flex-direction: row;
-    margin: 150px 35px;
+    margin: 150px 35px 0;
   }
 }
 .quotes__image {
