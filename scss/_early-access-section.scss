@@ -44,6 +44,9 @@
 
 		& span {
 			display: none;
+		}
+
+		& span.invalid-email {
 			color: $light-red;
 			font-size: 12px;
 			margin-top: -25px;

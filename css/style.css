@@ -404,6 +404,8 @@ main {
 }
 .early-access__form span {
   display: none;
+}
+.early-access__form span.invalid-email {
   color: #ff4242;
   font-size: 12px;
   margin-top: -25px;
