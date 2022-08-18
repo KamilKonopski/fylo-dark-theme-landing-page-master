@@ -51,7 +51,7 @@
 		}
 
 		& button {
-			background-color: $blue;
+			background: linear-gradient(to right, $cyan 0%, $cyan 10%, $blue 100%);
 			border: none;
 			border-radius: 50px;
 			color: $white;

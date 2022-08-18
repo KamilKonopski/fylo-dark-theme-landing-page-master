@@ -410,7 +410,7 @@ main {
   margin-bottom: 10px;
 }
 .early-access__form button {
-  background-color: #339ecc;
+  background: linear-gradient(to right, #65e2d9 0%, #65e2d9 10%, #339ecc 100%);
   border: none;
   border-radius: 50px;
   color: #ffffff;
