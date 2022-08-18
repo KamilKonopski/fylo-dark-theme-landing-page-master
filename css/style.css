@@ -369,7 +369,7 @@ main {
   box-shadow: 5px 3px 18px 0px rgb(16, 16, 16);
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 55vh;
   left: 5%;
   position: absolute;
   top: 88%;
@@ -387,4 +387,34 @@ main {
 .early-access__text p {
   font-size: 15px;
   line-height: 150%;
+}
+.early-access__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+.early-access__form input {
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  padding: 15px 0 15px 25px;
+}
+.early-access__form input:focus {
+  outline: none;
+}
+.early-access__form span {
+  display: none;
+  color: #ff4242;
+  font-size: 12px;
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+.early-access__form button {
+  background-color: #339ecc;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
 }/*# sourceMappingURL=style.css.map */
