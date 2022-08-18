@@ -278,6 +278,7 @@ main {
 .quotes {
   display: flex;
   flex-direction: column;
+  padding-bottom: 355px;
   position: relative;
 }
 @media screen and (min-width: 1024px) {
@@ -360,4 +361,30 @@ main {
     font-size: 8px;
     margin-left: 55px;
   }
+}
+
+.early-access {
+  background-color: #1c2431;
+  border-radius: 10px;
+  box-shadow: 5px 3px 18px 0px rgb(16, 16, 16);
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  left: 5%;
+  position: absolute;
+  top: 88%;
+  width: 90%;
+}
+.early-access__text {
+  color: #ffffff;
+  margin: 50px 30px 30px;
+  text-align: center;
+}
+.early-access__text h2 {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+}
+.early-access__text p {
+  font-size: 15px;
+  line-height: 150%;
 }/*# sourceMappingURL=style.css.map */
