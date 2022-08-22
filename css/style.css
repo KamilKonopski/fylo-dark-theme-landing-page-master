@@ -374,7 +374,7 @@ main {
   .early-access {
     height: 25vh;
     left: 20%;
-    top: 83%;
+    top: 73%;
     width: 60%;
   }
 }
@@ -473,17 +473,40 @@ main {
   background-color: #0b1523;
   padding-top: 230px;
 }
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 200px;
+  }
+}
 .footer__logo {
-  margin-left: 30px;
   margin-bottom: 35px;
+  margin-left: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__logo {
+    margin-bottom: -25px;
+    margin-left: 100px;
+  }
 }
 .footer .flex {
   display: flex;
   flex-direction: column;
   margin-left: 25px;
 }
+@media screen and (min-width: 1024px) {
+  .footer .flex {
+    align-items: baseline;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+}
 .footer__info {
   color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+  .footer__info {
+    display: flex;
+  }
 }
 .footer__info-location, .footer__info-phone, .footer__info-email {
   display: flex;
@@ -493,18 +516,53 @@ main {
   height: 3vh;
   margin-right: 30px;
 }
+@media screen and (min-width: 1024px) {
+  .footer__info-location img, .footer__info-phone img, .footer__info-email img {
+    height: 1.5vh;
+  }
+}
 .footer__info-location p, .footer__info-phone p, .footer__info-email p {
   font-size: 16px;
   margin-right: 25px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__info-location p, .footer__info-phone p, .footer__info-email p {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer__info-location {
+    margin-right: -420px;
+    width: 70%;
+  }
+  .footer__info-location p {
+    font-size: 14px;
+    margin-right: 450px;
+  }
+  .footer__info-email {
+    transform: translate(-90%, 65%);
+  }
 }
 .footer__navigation {
   list-style: none;
   margin-top: 50px;
 }
+@media screen and (min-width: 1024px) {
+  .footer__navigation {
+    display: flex;
+    margin-left: -400px;
+    margin-right: 100px;
+  }
+}
 .footer__navigation li {
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__navigation li {
+    margin-left: 10px;
+  }
 }
 .footer__navigation li a {
   color: #ffffff;
